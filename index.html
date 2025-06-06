@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barajas Exterior Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --earth-green: #5f7a4d;
+      --earth-brown: #8b6f47;
+      --light-beige: #f5f1ea;
+      --dark-gray: #333;
+      --white: #fff;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: var(--light-beige);
+      color: var(--dark-gray);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--earth-green);
+      color: var(--white);
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: var(--white);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .services, .testimonials, .contact-form {
+      background-color: var(--white);
+      margin: 2rem auto;
+      max-width: 1000px;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: var(--earth-brown);
+      margin-bottom: 1rem;
+    }
+    .btn {
+      background-color: var(--earth-green);
+      color: var(--white);
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--earth-brown);
+      color: var(--white);
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Barajas Exterior Services</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Barajas Exterior Services, we believe a clean, well-kept exterior says a lot about your home or business. We're a locally owned company committed to helping our neighbors keep their properties looking their best year-round.</p>
+    <p>We treat every project like it's our own and take pride in delivering excellent service with a friendly touch.</p>
+  </section>
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Pressure Washing</strong>: Driveways, sidewalks, siding, patios, and more</li>
+      <li><strong>Landscaping</strong>: Lawn care, trimming, planting, mulch installation</li>
+      <li><strong>Gutter Cleaning</strong>: Debris removal, flushing, and inspection</li>
+      <li><strong>Seasonal Maintenance</strong>: Spring/fall cleanup, storm prep</li>
+      <li><strong>Leaf & Branch Cleanup</strong>: Post-storm or seasonal debris removal</li>
+    </ul>
+    <a href="#contact" class="btn">Request a Quote</a>
+  </section>
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      <p>"Barajas Exterior Services did an amazing job pressure washing our driveway. It looks brand new!" – Sarah M.</p>
+    </blockquote>
+    <blockquote>
+      <p>"They were on time, professional, and very affordable. Highly recommend their landscaping work." – Mark L.</p>
+    </blockquote>
+    <blockquote>
+      <p>"The team cleaned out our gutters and even showed us before-and-after pictures. Great service!" – Jessica R.</p>
+    </blockquote>
+  </section>
+  <section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:<br /><input type="text" name="name" required></label><br /><br />
+      <label>Email:<br /><input type="email" name="email" required></label><br /><br />
+      <label>Phone:<br /><input type="tel" name="phone" required></label><br /><br />
+      <label>Service Needed:<br /><input type="text" name="service"></label><br /><br />
+      <label>Preferred Date:<br /><input type="date" name="date"></label><br /><br />
+      <label>Additional Comments:<br /><textarea name="comments"></textarea></label><br /><br />
+      <button type="submit" class="btn">Send Request</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Barajas Exterior Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>
